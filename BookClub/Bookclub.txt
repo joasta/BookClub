@@ -1,0 +1,55 @@
+number|title|author|genre|link|recced_by|id|rating
+
+1|Final Girls|Mira Grant|science-fiction|https://www.goodreads.com/en/book/show/32994321-final-girls|Vince|#9603|5
+
+2|The Picture of Dorian Gray|Oscar Wilde|Classic|https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray?from_search=true&qid=dyg0svinbZ&rank=1|Erebos|#1668|5
+
+3|Expedition|Wayne Barlowe|science-fiction, graphic novel|https://www.goodreads.com/book/show/1144909.Expedition?from_search=true&qid=qvKwrmQ7YO&rank=1|Ellen|#3281|5
+
+4|The Genius of Birds|Jennifer Ackerman|non-fiction, short stories|https://www.goodreads.com/book/show/25938481-the-genius-of-birds?ac=1&from_search=true&qid=TjKrZj1icd&rank=1|Abi|#3136|5
+
+5|Books of Blood|Clive Barker|horror/short-story|https://www.goodreads.com/book/show/761023.Books_of_Blood?ac=1&from_search=true&qid=abt2wh5lnj&rank=2|Ellen|#3281|5
+
+6|The Cipher|Kathe Koja|horror|https://www.goodreads.com/book/show/341930.The_Cipher?ac=1&from_search=true&qid=bPgKEBnucY&rank=1|Ellen|#3281|5
+
+7|Dragon’s Milk|Susan Fletcher|Fantasy|https://www.goodreads.com/book/show/341930.The_Cipher?ac=1&from_search=true&qid=bPgKEBnucY&rank=1|Cypress|#6960|5
+
+8|Deeplight|Frances Hardinge|Young Adult, Fantasy|https://www.goodreads.com/book/show/44647479-deeplight?ac=1&from_search=true&qid=XAooJm1cyb&rank=1|Abi|#3136|5
+
+9|Without You, There is No Us: My Time with the Sons of North Korea’s Elite|Suki Kim|Travel, Autobiography, Documentary|https://www.goodreads.com/book/show/20685373-without-you-there-is-no-us?from_search=true&qid=AQO0fBMTjA&rank=1|Jess|#7452
+
+10|And The Band Played On|Randy Shilts|Non-fiction, History, LGBT|https://www.goodreads.com/book/show/28212.And_the_Band_Played_On?ac=1&from_search=true&qid=rsuQ023QsV&rank=1|Ellen|#3281|5
+
+11|Paperbacks from Hell|Grady Hendrix|Non-fiction, horror|https://www.goodreads.com/book/show/33670466-paperbacks-from-hell?ac=1&from_search=true&qid=l62BkLP1XE&rank=1|Ellen|#3281|5
+
+12|The Real Inspector Hound|Tom Stoppard|Theatre, satire, murder mystery|https://www.goodreads.com/book/show/363204.The_Real_Inspector_Hound?from_search=true&qid=pFS4XQGFpU&rank=1|Vince|#9603|5
+
+13|When Breath Becomes Air|Paul Kalanithi|Non-fiction, memoir|https://www.goodreads.com/book/show/25899336-when-breath-becomes-air?ac=1&from_search=true&qid=RigtaV2xg7&rank=1|Vera|#0953|5
+
+14|The Priory of the Orange Tree|Samantha Shannon|Fantasy|https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree?ac=1&from_search=true&qid=PcfhtvoEga&rank=1|Abi|#3136|5
+
+15|Under the Udala Trees|Chinelo Okparanta|Historical-fiction, War-fiction, Lesbian, LGBT|https://www.goodreads.com/book/show/23719408-under-the-udala-trees?ac=1&from_search=true&qid=5OzumEzrTb&rank=1|Abi|#3136|5
+
+16|Tiger’s Curse|Colleen Houck|Fantasy|https://www.goodreads.com/book/show/9284655-tiger-s-curse?from_search=true&qid=7DPZEndAhm&rank=1|Cypress|#6960|5
+
+17|Upgrade Soul|Ezra Claytan Daniels|Graphic novel, Science-fiction, Horror|https://www.goodreads.com/book/show/39279780-upgrade-soul?from_search=true&qid=snn0eEoB3h&rank=1|Vince|#9603|5
+
+18|Daughter of the Forest|Juliet Marillier|Fantasy, historical|https://www.goodreads.com/book/show/13928.Daughter_of_the_Forest?ac=1&from_search=true&qid=LVUytQmScx&rank=1|Vera|#0953|5
+
+19|The Golem and the Djinni|Helene Wecker|Historical, Fantasy|https://www.goodreads.com/book/show/17624060-the-golem-and-the-djinni?from_search=true&qid=iiiu5RrrMW&rank=1|Vera|#0953|5
+
+20|The Fifth Season|NK Jemisin|Fantasy, post-apocalyptic|https://www.goodreads.com/book/show/19161852-the-fifth-season?from_search=true&qid=Yyb4O2DdTE&rank=1|Navi|#5512|5
+
+21|Moon Chosen|P.C. Cast|Fantasy|https://www.goodreads.com/book/show/28591281-moon-chosen?from_search=true&qid=X361Xkr49z&rank=2|Cypress|#6960|5
+
+22|Persepolis: The Story of a Childhood|Marjane Satrapi|Autobiography, non-fiction, graphic novel, history|https://www.goodreads.com/book/show/9516.Persepolis?ac=1&from_search=true&qid=fIDC9qUrKi&rank=2|Abi|#3136|5
+
+23|Johannes Cabal the Necromancer|Jonathan L. Howard|Fantasy, comedy|https://www.goodreads.com/book/show/5750628-johannes-cabal-the-necromancer?from_search=true&qid=bV6nUZVSOS&rank=1|Charles|#1873|5
+
+24|The Name of the Wind|Patrick Rothfuss|Fantasy|https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind?from_search=true&qid=cD7Dm749lh&rank=1|Charles|#1873|5
+
+25|Always North|Vicki Jarrett|Science-fiction, Climate Change Fiction|https://www.goodreads.com/book/show/48382896-always-north?from_search=true&qid=FFlcdIacnt&rank=1|Abi|#3136|5
+
+26|Ink and Bone|Rachel Caine|Fantasy|https://www.goodreads.com/book/show/20643052-ink-and-bone?from_search=true&qid=dyzuwVM3EH&rank=2|Navi|#5512|5
+
+27|The Black Prism|Brent Weeks|Fantasy|https://www.goodreads.com/book/show/7165300-the-black-prism?from_search=true&qid=f9cb3WdDtY&rank=1|Navi|#5512|5
