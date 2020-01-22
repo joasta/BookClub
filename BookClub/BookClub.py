@@ -64,7 +64,7 @@ def rate_book(rating, name):
         print("Wrong rating! Try again.")
         return False
 
-    with open('book.csv', 'rb') as f:
+    with open('BookClub\\book.csv', 'rb') as f:
         books = pd.read_csv(f, sep="|")
 
     if title not in books['title'].tolist():
@@ -78,7 +78,6 @@ def rate_book(rating, name):
         duplicate = readers.loc[readers['title']==title]
         duplicate = duplicate.loc[readers['name']==name]
         if duplicate is not None:
-            print("aha")
             readers.at[(readers['title']==title) & (readers['name']==name), 'rating'] = rating
 
         else:
@@ -97,6 +96,35 @@ def rate_book(rating, name):
         with open('book.csv', 'wb') as f:
             books.to_csv("book.csv", sep='|', index=False)
 
+def get_rec(input, name):
+    with open('BookClub\\reader.csv', 'rb') as f:
+        readers = pd.read_csv(f, sep="|")
+        
+    input = input.lstrip()
+    input = input.rstrip()
+    print(input)
+    target_books = readers.loc[readers['name']==input]
+    if target_books is None:
+        print("There's no library card under such a name.")
+        return False
+
+    target_books = target_books.loc[target_books['rating']>=2.5]
+    if target_books is None:
+        print("I have no books to recommend.")
+        return False
+    
+    read_books = readers.loc[readers['name']==name]
+    read_books = read_books['title'].to_list()
+    print("Read:")
+    print(read_books)
+
+    target_books = target_books['title'].to_list()
+    print("Other:")
+    print(target_books)
+
+    recs = [i for i in target_books if i not in read_books]
+    print("Recs:")
+    print(recs)
 
 
 def parse_input(input, name):
@@ -106,6 +134,9 @@ def parse_input(input, name):
     elif input[0:4] == "rate":
         rate_book(input[5:], name)
 
+    if input[0:3] == "get":
+        get_rec(input[3:], name)
+
     elif input[0:4] == "info":
         pass
     else:
@@ -113,12 +144,13 @@ def parse_input(input, name):
 
 if __name__ is '__main__':
     #name = input("Who are you?\n")
-    name="j"
+    name="k"
     proceed = True
     while proceed:
-        instream = input("What do you want to do? rec/rate/info\n")
+        instream = input("What do you want to do? rec/rate/info/get\n")
         if instream == "q":
             proceed = False
         else:
             #parse_input("rec bla bla [science-fiction] (Book) {Bill} https://www.onet.pl bla", name)
-            parse_input("rate (Book) 4", name)
+            #parse_input("rate (Book) 4", name)
+            get_rec("get j", name)
