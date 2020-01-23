@@ -1,3 +1,5 @@
 id|title|author|genre|link|name|rating
-0|j|Book|Bill|science-fiction|https://www.onet.pl|5.0
-1|Book|Bill|science-fiction|https://www.onet.pl|j|4.5
+1|Book|Bill|science-fiction|https://www.onet.pl|j|4.375
+2|Book2|Keating|science|https://www.wp.pl|k|4.0
+3|Book3|Mea|fiction|https://www.gazeta.pl|m|5.0
+3|Book7|Anna|poem|http://www.wp.pl|jj|5.0
