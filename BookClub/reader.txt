@@ -1,2 +1,5 @@
 Book|j|5
 Bok|j|5
+Book5|j|5
+Bok|je|4.0
+Bok|jo|3.0

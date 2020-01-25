@@ -1,13 +1,14 @@
-import pandas as pd
-import re
-from random import randint
 from Intern import Intern
+import os
 
-
+os.chdir(os.path.dirname(__file__))
 
 if __name__ is '__main__':
+    """
+    Pass user's name and request to an Intern object.
+    """
+
     name = input("Who are you?\n")
-    #name="jj"
     bot = Intern(name)
     proceed = True
     while proceed:
@@ -18,9 +19,4 @@ if __name__ is '__main__':
             pass
         else:
             bot.parse_text(instream)
-            #parse_input("rate (Book) <4.5>", name)
-            #parse_input("getu j", name)
-            #parse_input("getg fiction", name)
-            #parse_input("info Book5", name)
-            #parse_input("rec (Book7) {Anna} [poem] http://www.wp.pl wonderful book", name)
-            #rec >t Book >a May Parker >g poetry >r 4.5
+            #i.e.: rec >t Book >a May Parker >g poetry >r 4.5
