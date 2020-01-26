@@ -1,3 +1,4 @@
 Book|May Parker|poetry|www|jess|4.00
 Book 1|Ben Parker|fantasy|www|jess|3.50
 Book 5|Arthur Pendragon|science-fiction, romance|www|joy|4.50
+Book 3|NA|NA||new user|5.00

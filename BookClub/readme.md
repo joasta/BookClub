@@ -12,6 +12,9 @@ BookClub Intern korzysta jedynie z bibliotek wbudowanych dla Pythona 3.7.
 W celu instalacji należy pobrać repozytorium spod adresu:
 > https://github.com/joasta/BookClub
 
+W celu uruchomienia testów programu, konieczna będzie instalacja biblioteki
+pytest (patrz: requirements.txt).
+
 ## Uruchomienie
 
 Plikiem, który uruchamia logikę programu, jest BookClub.py

@@ -12,6 +12,8 @@ class Intern:
     _rest=""
 
     def __init__(self, name):
+        self.books = []
+        self.readers = []
         self._name = name
         self.read_readers()
         self.read_books()
@@ -295,6 +297,8 @@ class Intern:
             print("Wrong rating!")
             return False
 
+        rating = "{:.2f}".format(rating)
+
         a_book = Book(title, author, genre, link, self._name, rating)
         self.save_rec(a_book, self._rest)
 
@@ -341,6 +345,7 @@ class Intern:
             print("Wrong rating!")
             return False
 
+        rating = "{:.2f}".format(rating)
 
         a_read = Reader(title, self._name, rating)
         self.rate_book(a_read)
@@ -380,6 +385,5 @@ class Intern:
 
             elif self._command == "getg":
                 genre = instream.strip()
-                print(genre)
                 self.get_rec_genre(genre)
 

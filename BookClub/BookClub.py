@@ -3,7 +3,7 @@ import os
 
 os.chdir(os.path.dirname(__file__))
 
-if __name__ is '__main__':
+def main():
     """
     Pass user's name and request to an Intern object.
     """
@@ -20,3 +20,6 @@ if __name__ is '__main__':
         else:
             bot.parse_text(instream)
             #i.e.: rec >t Book >a May Parker >g poetry >r 4.5
+
+if __name__ is '__main__':
+    main()

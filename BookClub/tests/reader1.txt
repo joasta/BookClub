@@ -3,3 +3,4 @@ Book 1|jess|5.00
 Book 1|jay|2.00
 Book 5|joy|5.00
 Book 5|jo|4.00
+Book 3|new user|5.00
